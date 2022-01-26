@@ -1,10 +1,4 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/rookiewxy/lerna-demo.git/': Failed to connect to github.com port 443: Timed out
-15 error error: Could not fetch origin
-15 error Fetching origin
-15 error     at makeError (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\lib\error.js:60:11)
-15 error     at Function.module.exports.sync (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:194:17)
-15 error     at Object.execSync (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\child-process\index.js:39:16)
-15 error     at updateRemote (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\version\index.js:153:9)
+45 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+45 error fatal: unable to access 'https://github.com/rookiewxy/lerna-demo.git/': Failed to connect to github.com port 443: Timed out
+45 error     at makeError (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\lib\error.js:60:11)
+45 error     at handlePromise (C:\Users\xt09\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:118:26)
