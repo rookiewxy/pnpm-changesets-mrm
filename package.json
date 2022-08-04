@@ -1,7 +1,17 @@
 {
+  "version": "0.0.1",
   "name": "root",
   "private": true,
+  "scripts": {
+    "clear": " rimraf ./**/node_modules",
+    "build": "pnpm --filter=./packages/b** run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
+  },
+  "packageManager": "pnpm@7.5.1",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@changesets/cli": "^2.24.1",
+    "lerna": "^4.0.0",
+    "rollup": "^2.77.2"
   }
 }
