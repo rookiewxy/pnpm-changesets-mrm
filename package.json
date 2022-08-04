@@ -7,7 +7,7 @@
     "build": "pnpm --filter=./packages/b** run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s  -n ./changelog-option.js"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
