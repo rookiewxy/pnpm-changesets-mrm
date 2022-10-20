@@ -1,6 +1,14 @@
-41 error Error: ENOENT: no such file or directory, rename 'E:\wxy\xtkj\clone\lerna-demo\packages\react-demo\package.json.lerna_backup' -> 'E:\wxy\xtkj\clone\lerna-demo\packages\react-demo\package.json'
-41 error     at Object.renameSync (node:fs:980:3)
-41 error     at cleanup (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+@lerna+npm-install@4.0.0\node_modules\@lerna\npm-install\npm-install.js:70:10)
-41 error     at done (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+@lerna+npm-install@4.0.0\node_modules\@lerna\npm-install\npm-install.js:78:7)
-41 error     at E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+@lerna+npm-install@4.0.0\node_modules\@lerna\npm-install\npm-install.js:94:19
-41 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+0 silly argv {
+0 silly argv   _: [ 'add-caching' ],
+0 silly argv   lernaVersion: '6.0.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v6.0.1
+2 verbose rootPath E:\wxy\xtkj\clone\lerna-demo
+3 error Error: Invalid package name "@react-demo": name can only contain URL-friendly characters
+3 error     at invalidPackageName (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+npm-package-arg@8.1.1\node_modules\npm-package-arg\npa.js:89:15)
+3 error     at Result.setName (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+npm-package-arg@8.1.1\node_modules\npm-package-arg\npa.js:124:11)
+3 error     at new Result (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+npm-package-arg@8.1.1\node_modules\npm-package-arg\npa.js:114:23)
+3 error     at Function.resolve (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+npm-package-arg@8.1.1\node_modules\npm-package-arg\npa.js:61:15)
+3 error     at new Package (E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+@lerna+package@6.0.1\node_modules\@lerna\package\index.js:94:26)
+3 error     at E:\wxy\xtkj\clone\lerna-demo\node_modules\.pnpm\registry.npmjs.org+@lerna+project@6.0.1\node_modules\@lerna\project\index.js:278:26
